@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Bodoni Moda", serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.name h1 {
+  font-weight: 900;
+}
+
+.name {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #357266;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 0px 3px rgb(99, 98, 98);
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul l {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 3px rgb(99, 98, 98);
+  font-weight: 400;
+}
+
+.navbar {
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  display: flex;
+}
+
+.list a {
+  text-decoration: none;
+  color: #0E3B43;
+}
+
+.list a:hover {
+  color: #7A9E9F;
+}
+
+img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgb(99, 98, 98);
+}
+
+.images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  padding: 50px;
+  gap: 80px;
+}
